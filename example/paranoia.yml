@@ -1,0 +1,9 @@
+config:
+  print_margin: 15
+  print_fold_lines: true
+
+fields:
+  - name: Target
+    is_player: true
+  - name: Weapon
+  - name: Location

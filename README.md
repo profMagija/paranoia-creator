@@ -77,3 +77,33 @@ The following should be done for each of the printed-out pages, without looking 
 Take a look at the following illustration to make it even less clear:
 
 ![](./pages.png)
+
+## Printing Configuration Options
+
+```
+
+    cover_font_name: str = "Arial"
+    cover_font_style: str = "B"
+    cover_font_size: int = 20
+    cover_line_spacing: str = 1.1
+
+    field_font_name: str = "Arial"
+    field_font_style: str = ""
+    field_font_size: int = 10
+    field_line_spacing: str = 1.1
+
+    value_font_name: str = "Arial"
+    value_font_style: str = "B"
+    value_font_size: int = 12
+    value_line_spacing: str = 1.1
+
+    id_font_name: str = "Arial"
+    id_font_style: str = "B"
+    id_font_size: int = 8
+    id_line_spacing: str = 1.1
+    id_prefix: str = "Serial Number: "
+
+    print_margin: int = 20
+    print_fold_lines: bool = False
+    
+  ```
